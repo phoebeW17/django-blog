@@ -34,7 +34,8 @@ DEBUG = 'DEBUG' in os.environ
 ALLOWED_HOSTS = [
     'localhost',
     '8000-phoebew17-djangoblog-peslkzkw8em.ws.codeinstitute-ide.net',
-    'django-blog17.herokuapp.com'
+    'django-blog17.herokuapp.com',
+    '.herokuapp.com',
     ]
 
 
@@ -99,7 +100,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeinstitute-ide.net/",
+    "https://*.codeinstitute-ide.net",
     "https://*.herokuapp.com"
 ]
 
